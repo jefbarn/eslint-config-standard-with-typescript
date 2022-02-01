@@ -3,6 +3,9 @@
   "version": "21.0.1",
   "description": "An ESLint Shareable Config for JavaScript Standard Style with TypeScript support",
   "main": "lib/index.js",
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
   "scripts": {
     "compile": "tsc",
     "lint": "eslint --ext .js,.ts .",
@@ -54,14 +57,14 @@
   ],
   "dependencies": {
     "@typescript-eslint/parser": "^5.0.0",
-    "eslint-config-standard": "^16.0.0"
+    "eslint-config-standard": "^17.0.0-1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.1 || ^5.0.0",
-    "eslint": "^7.12.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1 || ^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^14.0.0",
+    "eslint-plugin-promise": "^6.0.0",
     "typescript": "*"
   },
   "devDependencies": {
@@ -69,18 +72,18 @@
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "14.1.0",
     "@commitlint/travis-cli": "13.2.1",
-    "@types/eslint": "7.29.0",
+    "@types/eslint": "8.4.1",
     "@types/js-yaml": "4.0.5",
     "@types/node": "16.11.5",
     "@types/npm-package-arg": "6.1.1",
     "@types/semver": "7.3.9",
-    "@typescript-eslint/eslint-plugin": "5.10.1",
+    "@typescript-eslint/eslint-plugin": "5.10.2",
     "ava": "4.0.1",
     "editorconfig-checker": "4.0.2",
-    "eslint": "7.32.0",
+    "eslint": "8.8.0",
     "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "5.2.0",
+    "eslint-plugin-n": "14.0.0",
+    "eslint-plugin-promise": "6.0.0",
     "fs.promises": "0.1.2",
     "inclusion": "1.0.1",
     "js-yaml": "4.1.0",
@@ -91,7 +94,7 @@
     "semver": "7.3.5",
     "standard-version": "9.3.2",
     "tsconfigs": "5.0.0",
-    "typescript": "4.4.4"
+    "typescript": "4.5.5"
   },
   "files": [
     "lib/index.js",
