@@ -49,7 +49,7 @@ Note: Please read some important instructions regarding the `project` option [he
 
 There are [some more `parserOptions`](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/parser/README.md#configuration) you may care about.
 
-Example command line usage for ESLint v8:
+Example command line usage:
 
 ```
 $ npx eslint .
